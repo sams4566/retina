@@ -29,3 +29,45 @@
     width: 100%;
     background-color: lightgrey;
 }
+
+#circle-outer {
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: -100px;
+}
+
+#circle-picture {
+    background: url('ashley-taylor.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+    border-color: #009EE0;
+    border-width: 10px;
+    border-style: solid;
+}
+
+.section1 {
+    height: 700px;
+}
+
+.section2 {
+    height: 400px;
+    background: no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    background-image: url(coffee-table.jpg);
+}
+
+.location-marker {
+    font-size: 5rem;
+    top: 500px;
+}
+
+.quotation-mark {
+    font-size: 5rem;
+}
+
+.section3 {
+    height: 500px;
+}
