@@ -1,0 +1,31 @@
+.navbar1 {
+    height: 500px;
+}
+
+.background-photo {
+    background: no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-image: url(retina-background.jpg);
+}
+
+.center-text {
+    text-align: center;
+}
+  
+.content-width {
+    width: max-content;
+}
+
+.card {
+    height: 200px;
+    width: 150px;
+    background-color: #004C93;
+}
+
+.card2 {
+    height: 400px;
+    width: 100%;
+    background-color: lightgrey;
+}
