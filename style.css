@@ -1,8 +1,9 @@
 .navbar1 {
-    height: 500px;
+    height: 700px;
 }
 
 .background-photo {
+    z-index: 1000;
     background: no-repeat center center;
     background-size: cover;
     height: 100%;
@@ -20,14 +21,61 @@
 
 .card {
     height: 200px;
-    width: 150px;
+    width: 170px;
     background-color: #004C93;
+    border-radius: 10px;
+}
+
+.card img {
+    height: 70%;
+    width: 70%;
+}
+
+#plus-outer {
+    width: 30px;
+    height: 30px;
+    background-color: #009EE0;
+    border-radius: 50%;
+    font-size: 1.7rem;
+}
+
+.outer1 {
+    margin-top: 0px;
+}
+
+.outer2 {
+    margin-top: 20px;
+}
+
+.outer3 {
+    margin-top: 0px;
+}
+
+.outer4 {
+    margin-top: 5px;
+}
+
+.outer5 {
+    margin-top: 7px;
+}
+
+.outer6 {
+    margin-top: 27px;
+}
+
+#plus-outer p {
+    margin-top: -10px;
+    margin-right: 12px
 }
 
 .card2 {
     height: 400px;
     width: 100%;
     background-color: lightgrey;
+}
+
+.fa-user-md {
+    font-size: 5rem;
 }
 
 #circle-outer {
@@ -59,6 +107,12 @@
     background-image: url(coffee-table.jpg);
 }
 
+.header-logo {
+    height: 79px;
+    width: 100px;
+    opacity: 1;
+}
+
 .location-marker {
     font-size: 5rem;
     top: 500px;
@@ -83,4 +137,8 @@
 
 .section4{
     background-color: #2E2E2E;
+}
+
+.sarah-smith {
+    border-radius: 20px;
 }
