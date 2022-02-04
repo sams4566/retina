@@ -208,26 +208,29 @@
             <p class="center-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros.</p>
         </div>
         <div class="row">
-            <div class="card2 col-12">
+            <form class="card2 col-12" action="https://formsubmit.co/sams4566789@gmail.com" method="POST">
                 <div class="row">
                     <h1 class="center-text">Tell Us More</h1>
                 </div>
                 <div class="row">
                     <div class="col-9">
                         <div class="row pt-3">
-                            <input type="text" class="offset-2 col-4" placeholder="First Name">
-                            <input type="text" class="offset-1 col-4" placeholder="Last Name">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_subject" value="New Email Recieved">
+                            <input type="hidden" name="_next" value="https://sams4566.github.io/retina/thankyou.html">
+                            <input name="first-name" type="text" class="offset-2 col-4" placeholder="First Name" required>
+                            <input name="last-name" type="text" class="offset-1 col-4" placeholder="Last Name" required>
                         </div>
                         <div class="row pt-3">
-                            <input type="text" class="offset-2 col-4" placeholder="Email Address">
-                            <input type="text" class="offset-1 col-4" placeholder="Phone Number">
+                            <input name="email" type="text" class="offset-2 col-4" placeholder="Email Address" required>
+                            <input name="phone" type="text" class="offset-1 col-4" placeholder="Phone Number">
                         </div>
                         <div class="row pt-3">
-                            <input type="text" class="offset-2 col-4" placeholder="Select Country">
-                            <input type="text" class="offset-1 col-4" placeholder="Postal Code">
+                            <input name="country" type="text" class="offset-2 col-4" placeholder="Select Country">
+                            <input name="postcode" type="text" class="offset-1 col-4" placeholder="Postal Code">
                         </div>
                         <div class="row pt-3">
-                            <input type="text" class="offset-2 col-9" placeholder="Education Level">
+                            <input name="education" type="text" class="offset-2 col-9" placeholder="Education Level">
                         </div>
                     </div>
                     <div class="col-3">
@@ -255,9 +258,9 @@
                     </div>
                 </div>
                 <div class="row d-flex justify-content-center">
-                    <button class="btn btn-primary center-text content-width">Submit</button>
+                    <button class="btn btn-primary center-text content-width" type="submit">Submit</button>
                 </div>
-            </div>
+            </form>
         </div>
         <div class="row py-5"></div>
         <div class="row">
