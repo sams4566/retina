@@ -30,12 +30,20 @@
     border-radius: 10px;
 }
 
+.clicked-card {
+    height: 250px;
+    width: 170px;
+    background-color: #54B948;
+    border-radius: 10px;
+    margin-top: -50px;
+}
+
 .card img {
     height: 70%;
     width: 70%;
 }
 
-#plus-outer {
+.plus-outer {
     width: 30px;
     height: 30px;
     background-color: #009EE0;
@@ -43,31 +51,42 @@
     font-size: 1.7rem;
 }
 
-.outer1 {
+.plus-outer2 {
+    width: 25px;
+    height: 25px;
+    background-color: #54B948;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    font-size: 1.6rem;
+}
+
+#outer1 {
     margin-top: 0px;
 }
 
-.outer2 {
+#outer2 {
     margin-top: 20px;
 }
 
-.outer3 {
+#outer3 {
     margin-top: 0px;
 }
 
-.outer4 {
+#outer4 {
     margin-top: 5px;
 }
 
-.outer5 {
+#outer5 {
     margin-top: 7px;
 }
 
-.outer6 {
+#outer6 {
     margin-top: 27px;
 }
 
-#plus-outer p {
+.plus-outer p {
     margin-top: -10px;
     margin-right: 12px
 }
@@ -145,4 +164,68 @@
 
 .sarah-smith {
     border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+#number-generator::after,
+#number-generator2::after,
+#number-generator3::after,
+#number-generator4::after,
+#number-generator5::after {
+    content: counter(count);
+    animation: counter 5s linear infinite alternate;
+    counter-reset: count 0;
+}
+  
+@keyframes counter {
+    0% {
+        counter-increment: count 0;
+    }
+
+    10% {
+        counter-increment: count 1;
+    }
+
+    20% {
+        counter-increment: count 2;
+    }
+
+    30% {
+        counter-increment: count 3;
+    }
+
+    40% {
+        counter-increment: count 4;
+    }
+
+    50% {
+        counter-increment: count 5;
+    }
+
+    60% {
+        counter-increment: count 6;
+    }
+
+    70% {
+        counter-increment: count 7;
+    }
+
+    80% {
+        counter-increment: count 8;
+    }
+
+    90% {
+        counter-increment: count 9;
+    }
+
+    100% {
+        counter-increment: count 10;
+    }
 }
