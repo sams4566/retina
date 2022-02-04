@@ -71,3 +71,16 @@
 .section3 {
     height: 500px;
 }
+
+.achievement {
+    height: 200px;
+    width: 200px;
+}
+
+.color-blue {
+    color: #009EE0;
+}
+
+.section4{
+    background-color: #2E2E2E;
+}
