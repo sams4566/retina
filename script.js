@@ -1,3 +1,7 @@
+/**
+ * Reveal the additional information section about the first 
+ * category when the '+' button is selected
+ */
 let dropDown1 = document.getElementById('outer1')
 dropDown1.addEventListener("click", function () {
     let div1 = document.getElementById("healthcare1");
@@ -6,6 +10,10 @@ dropDown1.addEventListener("click", function () {
     div2.classList.remove("d-none");
 });
 
+/**
+ * Hide the additional information about the first category when 
+ * the 'x' button is selected
+ */
 let cross1 = document.getElementById('healthcare-x')
 cross1.addEventListener("click", function () {
     let div1 = document.getElementById("healthcare1");
@@ -14,6 +22,10 @@ cross1.addEventListener("click", function () {
     div1.classList.remove("d-none");
 });
 
+/**
+ * Reveal the additional information section about the second 
+ * category when the '+' button is selected
+ */
 let dropDown2 = document.getElementById('outer2')
 dropDown2.addEventListener("click", function () {
     let div1 = document.getElementById("psychology1");
@@ -22,6 +34,10 @@ dropDown2.addEventListener("click", function () {
     div2.classList.remove("d-none");
 });
 
+/**
+ * Hide the additional information about the second category when 
+ * the 'x' button is selected
+ */
 let cross2 = document.getElementById('psychology-x')
 cross2.addEventListener("click", function () {
     let div1 = document.getElementById("psychology1");
@@ -30,6 +46,10 @@ cross2.addEventListener("click", function () {
     div1.classList.remove("d-none");
 });
 
+/**
+ * Reveal the additional information section about the third 
+ * category when the '+' button is selected
+ */
 let dropDown3 = document.getElementById('outer3')
 dropDown3.addEventListener("click", function () {
     let div1 = document.getElementById("data-science1");
@@ -38,6 +58,10 @@ dropDown3.addEventListener("click", function () {
     div2.classList.remove("d-none");
 });
 
+/**
+ * Hide the additional information about the third category when 
+ * the 'x' button is selected
+ */
 let cross3 = document.getElementById('data-science-x')
 cross3.addEventListener("click", function () {
     let div1 = document.getElementById("data-science1");
@@ -46,6 +70,10 @@ cross3.addEventListener("click", function () {
     div1.classList.remove("d-none");
 });
 
+/**
+ * Reveal the additional information section about the fourth 
+ * category when the '+' button is selected
+ */
 let dropDown4 = document.getElementById('outer4')
 dropDown4.addEventListener("click", function () {
     let div1 = document.getElementById("cyber-security1");
@@ -54,6 +82,10 @@ dropDown4.addEventListener("click", function () {
     div2.classList.remove("d-none");
 });
 
+/**
+ * Hide the additional information about the fourth category when 
+ * the 'x' button is selected
+ */
 let cross4 = document.getElementById('cyber-security-x')
 cross4.addEventListener("click", function () {
     let div1 = document.getElementById("cyber-security1");
@@ -62,6 +94,10 @@ cross4.addEventListener("click", function () {
     div1.classList.remove("d-none");
 });
 
+/**
+ * Reveal the additional information section about the fifth 
+ * category when the '+' button is selected
+ */
 let dropDown5 = document.getElementById('outer5')
 dropDown5.addEventListener("click", function () {
     let div1 = document.getElementById("accounting1");
@@ -70,6 +106,10 @@ dropDown5.addEventListener("click", function () {
     div2.classList.remove("d-none");
 });
 
+/**
+ * Hide the additional information about the fifth category when 
+ * the 'x' button is selected
+ */
 let cross5 = document.getElementById('accounting-x')
 cross5.addEventListener("click", function () {
     let div1 = document.getElementById("accounting1");
@@ -78,7 +118,10 @@ cross5.addEventListener("click", function () {
     div1.classList.remove("d-none");
 });
 
-
+/**
+ * Reveal the additional information section about the sixth 
+ * category when the '+' button is selected
+ */
 let dropDown6 = document.getElementById('outer6')
 dropDown6.addEventListener("click", function () {
     let div1 = document.getElementById("all-programs1");
@@ -87,6 +130,10 @@ dropDown6.addEventListener("click", function () {
     div2.classList.remove("d-none");
 });
 
+/**
+ * Hide the additional information about the sixth category when 
+ * the 'x' button is selected
+ */
 let cross6 = document.getElementById('all-programs-x')
 cross6.addEventListener("click", function () {
     let div1 = document.getElementById("all-programs1");
@@ -95,7 +142,10 @@ cross6.addEventListener("click", function () {
     div1.classList.remove("d-none");
 });
 
-
+/**
+ * Start the number counters when the user scrolls to the 
+ * achievements section
+ */
 $(window).scroll(function() {
     let numbers1 = document.getElementById("number-generator");
     let numbers2 = document.getElementById("number-generator2");

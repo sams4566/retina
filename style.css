@@ -2,10 +2,6 @@
     height: 600px;
 }
 
-.navbar2 {
-    height: 500px;
-}
-
 .background-photo {
     z-index: 1000;
     background: no-repeat center center;
@@ -105,7 +101,7 @@
 }
 
 .card2 {
-    height: 350px;
+    height: 100%;
     width: 100%;
     background-color: lightgrey;
     border-radius: 20px;
@@ -160,7 +156,7 @@
 }
 
 .section3 {
-    height: 600px;
+    height: 100%;
 }
 
 .achievement {
@@ -238,5 +234,27 @@
 
     100% {
         counter-increment: count 10;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .section2 {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .section1 {
+        height: 100%;
+    }
+
+    .navbar1 {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .navbar1 {
+        height: 100%;
     }
 }
